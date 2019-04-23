@@ -7,5 +7,4 @@
     <dimen name="boton_horizontal">10dp</dimen>
     <dimen name="boton_vertical">10dp</dimen>
     <dimen name="boton_vertical_bottom">100dp</dimen>
-
 </resources>

@@ -29,8 +29,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="118dp"
-        android:layout_height="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/boton_horizontal"
+        android:layout_marginTop="@dimen/boton_vertical"
+        android:layout_marginRight="@dimen/boton_horizontal"
+        android:layout_marginBottom="@dimen/boton_vertical_bottom"
         android:background="@android:color/transparent"
         android:text="@string/boton"
         android:textColor="@android:color/white"

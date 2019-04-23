@@ -29,15 +29,19 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="@dimen/boton_horizontal"
+        android:layout_marginTop="@dimen/boton_vertical"
+        android:layout_marginRight="@dimen/boton_horizontal"
+        android:layout_marginBottom="@dimen/boton_vertical_bottom"
         android:background="@android:color/transparent"
         android:text="@string/boton"
-        android:textColor="@android:color/background_light"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>
